@@ -1,8 +1,8 @@
 import { useState } from "react"
 import words from "./data/wordList.json"
 import HangmanWord from "./components/HangmanWord"
-import HangManDrawing from "./components/HangManDrawing"
 import Keyboard from "./components/Keyboard"
+import HangmanDraw from "./components/HangmanDraw"
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         Lose
         Win 
       </div>
-      <HangManDrawing />
+      <HangmanDraw />
       <HangmanWord />
       <Keyboard />
     </div>
